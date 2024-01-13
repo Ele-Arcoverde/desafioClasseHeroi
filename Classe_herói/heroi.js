@@ -7,7 +7,7 @@ class Heroi {
         this.tipo = tipo;
     } 
 
-    // Método para o herói atacar
+    // Método
     atacar() {
         // Definindo o ataque com base no tipo
         let atacar;
@@ -32,9 +32,7 @@ class Heroi {
         console.log(`O ${this.tipo} ${this.nome} atacou usando ${atacar}.`);
     }
 }
-
-// Exemplo de uso:
-// Criando heróis
+// Criando novos heróis
 let heroi1 =  new Heroi("Pedro Pedreira", 35, "guerreiro");
 let heroi2 =  new Heroi("Harry Talentoso", 21, "mago");
 let heroi3 =  new Heroi("Ivan Paziamore", 33, "monge");
